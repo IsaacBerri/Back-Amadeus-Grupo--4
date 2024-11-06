@@ -1,4 +1,4 @@
-package com.example.nodo.demo.Age.Models;
+package com.example.nodo.demo.Models;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -12,6 +12,6 @@ import lombok.*;
 public class Age {
     @Id
     @GeneratedValue (strategy = GenerationType.SEQUENCE)
-    private Integer Age_id;
-    public String Age_value;
+    private Integer id;
+    public String name;
 }
