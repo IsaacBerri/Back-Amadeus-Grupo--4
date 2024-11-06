@@ -1,7 +1,8 @@
-package com.example.nodo.demo.Travel.Repositories;
+package com.example.nodo.demo.Repositories;
 
-import com.example.nodo.demo.Age.Repositories.AgeRepositories;import org.springframework.data.jpa.repository.JpaRepository;
+import com.example.nodo.demo.Models.Travel;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface TravelRepositorie extends JpaRepository<AgeRepositories.TravelRepositorie, Integer> {
+public interface TravelRepositorie extends JpaRepository<Travel, Integer> {
 
 }

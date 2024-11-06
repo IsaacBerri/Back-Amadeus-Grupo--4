@@ -1,4 +1,4 @@
-package com.example.nodo.demo.Travel.Models;
+package com.example.nodo.demo.Models;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -12,6 +12,6 @@ import lombok.*;
 public class Travel {
     @Id
     @GeneratedValue (strategy = GenerationType.SEQUENCE)
-    private Integer Travel_id;
-    public String Travel_value;
+    private Integer id;
+    public String name;
 }
